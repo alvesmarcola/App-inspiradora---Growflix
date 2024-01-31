@@ -7,7 +7,7 @@
     <title>Growflix - A plataforma </title>
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="assets/logo-growflix.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <!--Link bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -26,6 +26,11 @@
                             <img src="./assets/logo-growflix.svg" alt="Bootstrap" width="120" height="30"
                                 class="ml-3" />
                         </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <div class="navbar-nav fs-5">
                                 <a class="nav-link active" aria-current="page" href="./index.html">Início</a>
@@ -43,7 +48,7 @@
             <div class="col">
                 <div class="container">
                     <div class="row p-5 home-videos ">
-                        <div class="col-12 ">
+                        <div class="col-lg-8 col-md-10 col-sm-12">
                             <p class="fw-bold text-light pb-5">
                                 <small>PODCAST</small><br>
                                 <span class="display-1 fw-bold">GROWCAST</span><br>
@@ -66,11 +71,9 @@
         <div class="divider-row"></div>
     </header>
 
-
-
-    <main class="pb-5">
+    <main class="pt-5">
         <div class="container container-videos">
-
+            <!-- Growcast -->
             <div class="row" id="growcast-videos">
                 <div class="col-12 fw-bold text-light">
                     <a href="#growcast-videos" class="link-home">
@@ -82,10 +85,10 @@
                         </svg>
                     </a>
                 </div>
-                <!--  Growcast -->
+                <!-- Aqui serão exibidos os vídeos da categoria Growcast -->
             </div>
 
-
+            <!-- Webinar em Flutter -->
             <div class="row row-videos" id="webinar-videos">
                 <div class="col-12 fw-bold text-light">
                     <a href="#webinar-videos" class="link-home">
@@ -97,41 +100,41 @@
                         </svg>
                     </a>
                 </div>
-                <!--  Flutter -->
+                <!-- Aqui serão exibidos os vídeos da categoria Webinar em Flutter -->
             </div>
 
-
+            <!-- Jornada UX/UI -->
             <div class="row" id="ux-ui-videos">
                 <div class="col-12 fw-bold text-light">
                     <a href="#ux-ui-videos" class="link-home">
-                        Jornada UX/UI <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        Jornada UX/UI <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
                             <path
                                 d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
                             </path>
                         </svg>
                     </a>
                 </div>
-                <!-- Jornada UX/UI -->
+                <!-- Aqui serão exibidos os vídeos da categoria Jornada UX/UI -->
             </div>
 
-
+            <!-- Diversos -->
             <div class="row" id="diversos-videos">
                 <div class="col-12 fw-bold text-light">
                     <a href="#diversos-videos" class="link-home">
-                        Diversos <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        Diversos <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
                             <path
                                 d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z">
                             </path>
                         </svg>
                     </a>
                 </div>
-                <!-- a Diversos -->
+                <!-- Aqui serão exibidos os vídeos da categoria Diversos -->
             </div>
         </div>
 
-        <div class="divider-row"></div>
+        <div class="divider-row pb-5"></div>
     </main>
 
     <footer class="container-fluid text-white-50 bg-black">
@@ -139,31 +142,21 @@
             <div class="col-12">
                 <div class="container d-flex justify-content-between">
                     <div class="row">
-                        <div class="col-12 pt-5">Dúvidas? Ligue 0800 591 8942</div>
-                        <div class="col-6 col-sm-3 pt-5">
+                        <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                            <p class="fs-5">Dúvidas? Ligue 0800 591 8942</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 pt-5">
                             <p class="fs-5">Perguntas frequentes</p>
                             <p class="fs-5">Relações com investidores</p>
                             <p class="fs-5">Formas de assistir</p>
                             <p class="fs-5">Informações corporativas</p>
                             <p class="fs-5">Só na Growflix</p>
                         </div>
-                        <div class="col-6 col-sm-3 pt-5">
+                        <div class="col-lg-3 col-md-3 col-sm-6 pt-5">
                             <p class="fs-5">Central de Ajuda</p>
                             <p class="fs-5">Carreiras</p>
                             <p class="fs-5">Termos de Uso</p>
                             <p class="fs-5">Entre em contato</p>
-                        </div>
-                        <div class="col-6 col-sm-3 pt-5">
-                            <p class="fs-5">Conta</p>
-                            <p class="fs-5">Resgatar cartão pré-pago</p>
-                            <p class="fs-5">Privacidade</p>
-                            <p class="fs-5">Teste de velocidade</p>
-                        </div>
-                        <div class="col-6 col-sm-3 pt-5">
-                            <p class="fs-5">Media Center</p>
-                            <p class="fs-5">Comprar cartão pré-pago</p>
-                            <p class="fs-5">Preferências de cookies</p>
-                            <p class="fs-5">Avisos legais</p>
                         </div>
                         <div class="col-12 pt-5 pb-5">Growflix Growdev</div>
                     </div>

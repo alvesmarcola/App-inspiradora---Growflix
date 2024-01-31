@@ -103,3 +103,7 @@ footer{
 .card-div{
     min-height: 216px;
 }
+
+a{
+    text-decoration: none ;
+}
