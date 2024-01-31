@@ -14,7 +14,6 @@
 
 .divider-row {
     border-bottom: 3px solid var(--divider-row);
-    
 }
 
 .acordion-hover .accordion-item .accordion-button {
@@ -40,7 +39,7 @@ header {
 }
 
 .title-text{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 

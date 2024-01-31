@@ -1,0 +1,105 @@
+:root{
+    --color-primary: #303030;
+    --hover-acordion:#031C3F;
+    --divider-row:#515c6f;
+}
+
+.banner-home{
+    background: url('./assets/growcast-01.png') center top/cover no-repeat
+    fixed;
+    
+}
+
+.divider-row {
+    border-bottom: 3px solid var(--divider-row);
+}
+
+.btn-inicio{
+    background-color: #e50914;
+    color: #ffffff; padding: 20px 35px;
+    font-weight: 700; 
+    font-size: 25px;
+}
+.btn-inicio:hover {
+    background-color: #b6060f;
+    color: #ffffff;
+}
+
+.row-divisor{
+    border-bottom: 2px solid gray;
+}
+
+.accordion-item {
+    border: 5px solid #000000;
+}
+.accordion-button{
+    background-color: #303030 !important;
+    color: #ffffff;
+    padding: 25px !important;
+    font-size: 26px;
+}
+.accordion-button:not(.collapsed){
+    color: #ffffff;
+}
+.accordion-button::after {
+    background-image: url("../images/add.svg") !important;
+}
+
+.home-videos{
+    align-items: flex-end;
+    min-height: 680px;
+}
+footer{
+    color: #9d9d9d;
+}
+
+.nav-link:hover{
+    color: rgb(235, 4, 4)
+}
+.botao-destaque:hover{
+    background-color: rgb(235, 4, 4);
+    border-color:  rgb(235, 4, 4);
+    color: #fff;
+}
+.link-home{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.link-home:hover{
+    color: rgb(235, 4, 4);
+    display:block;
+}
+.card{
+    border: none;
+    border-radius: 0%;
+    background-color: #000000;
+}
+.play-svg{
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.titulo-hover{
+    transform: scale(1.2);
+    margin-top: 30px;
+    position: absolute;
+    width: 350px;
+    background-color: #000000;
+    padding-bottom: 20px;
+    z-index: 999;
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+}
+.modal-header{
+    border-bottom: 1px solid black;
+}
+
+.video{
+    background-color: #000000;
+}
+
+.card-div{
+    min-height: 216px;
+}
