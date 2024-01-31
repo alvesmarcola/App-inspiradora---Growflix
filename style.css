@@ -1,0 +1,50 @@
+:root{
+    --color-primary: #303030;
+    --hover-acordion:#031C3F;
+    --divider-row:#515c6f;
+}
+
+ /* .acordion-hover{
+    background: var(--color-primary);
+    font-size: 1rem;
+    position: relative;
+    padding: 1rem 1.25rem;
+    
+} */
+
+.divider-row {
+    border-bottom: 3px solid var(--divider-row);
+    
+}
+
+.acordion-hover .accordion-item .accordion-button {
+    color: white;
+    background-color: var(--color-primary);
+    font-size: 1rem;
+    position: relative;
+    padding: 1.7rem 1.25rem;
+}
+
+.acordion-hover:hover{
+    border: var(--hover-acordion);
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('./assets/banner-initial.png');
+}
+
+.btn-especial {
+    padding: 1.6rem 3rem;
+    font-size: 1.5rem;
+}
+
+.title-text{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+p{
+    text-decoration: none !important;
+}
+
