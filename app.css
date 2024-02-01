@@ -29,21 +29,6 @@
     border-bottom: 2px solid gray;
 }
 
-.accordion-item {
-    border: 5px solid #000000;
-}
-.accordion-button{
-    background-color: #303030 !important;
-    color: #ffffff;
-    padding: 25px !important;
-    font-size: 26px;
-}
-.accordion-button:not(.collapsed){
-    color: #ffffff;
-}
-.accordion-button::after {
-    background-image: url("../images/add.svg") !important;
-}
 
 .home-videos{
     align-items: flex-end;
@@ -107,3 +92,38 @@ footer{
 a{
     text-decoration: none ;
 }
+
+.fa {
+    font-size: 2.2rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+ /* Estilos para os cards */
+.card {
+    background-color: #303030; /* Cor de fundo do card */
+    color: #ffffff; /* Cor do texto no card */
+    border: none; /* Removendo borda */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento externo inferior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave */
+}
+
+/* Estilos para o título dos cards */
+.card-title {
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilos para o conteúdo dos cards */
+.card-content {
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #ffffff; /* Cor do texto */
+}
+
